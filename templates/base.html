@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet", a href="{{url_for('static', filename='css/main.css')}}">
+	{% block head%}{% endblock %}
+</head>
+<body>
+	<div style="padding:30px;">
+	{% block body%}{% endblock %}
+	</div>
+</body>
+
+</html>
